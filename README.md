@@ -1,5 +1,5 @@
 # moswoc-flare-verification
-Data and code used for MOSWOC Flare Verification Paper. Please reference this work as 
+Data and example code used for work on the paper 'Flare forecasting at the Met Office Space Weather Operations Centre' by Murray, S. A., et al that has been submitted to the Space Weather Journal. Please reference this work as 
 [![DOI](https://zenodo.org/badge/83428014.svg)](https://zenodo.org/badge/latestdoi/83428014)
 
 Data
