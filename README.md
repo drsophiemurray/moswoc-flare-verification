@@ -1,5 +1,6 @@
 # moswoc-flare-verification
-Data and code used for MOSWOC Flare Verification Paper
+Data and code used for MOSWOC Flare Verification Paper. Please reference this work as 
+[![DOI](https://zenodo.org/badge/83428014.svg)](https://zenodo.org/badge/latestdoi/83428014)
 
 Data
 ----
@@ -30,3 +31,5 @@ License
 -------
 
 The content of this project is licensed under the [Creative Commons Attribution 4.0 license](https://creativecommons.org/licenses/by/4.0/), and the underlying source code used to format and display that content is licensed under the [MIT license](https://opensource.org/licenses/mit-license.php).
+
+
