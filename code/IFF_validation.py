@@ -10,32 +10,24 @@
     Check if there was a flare or not during forecast period,
     then create some files for verification (True/False,probability)
     
+    Edited into multiple codes for GitHub..
 '''
 
 import numpy as np
 import datetime as dt
 
-#forecast_file = '/Users/sophie/Dropbox/met_office_folders/ver_files/tot_fcast.txt'
-#flare_file = '/Users/sophie/Dropbox/met_office_folders/ver_files/mx_list.txt'
-#forecast_windows = [1, 2, 3, 4] #days
-#DIR = '/Users/sophie/Dropbox/met_office_folders/ver_files/total_logic/'
+forecast_file = '/Users/sophie/Dropbox/moswoc_paper/data/IFF_fcast.txt'
+flare_file = '/Users/sophie/Dropbox/moswoc_paper/data/MX_list.txt'
+DIR = '/Users/sophie/Dropbox/moswoc_paper/data/IFF_logic/'
 
-#forecast_file = '/home/somurray/moswoc_flare_verification_data/new_tot_fcast.txt'
-#flare_file = '/home/somurray/moswoc_flare_verification_data/new_mx_list.txt'
-#forecast_windows = [1, 2, 3, 4] #days
-#DIR = '/home/somurray/moswoc_flare_verification_data/new_total_logic/'
-
-forecast_file = '/Users/sophie/Dropbox/moswoc_paper/data/new_tot_fcast.txt'
-flare_file = '/Users/sophie/Dropbox/moswoc_paper/data/new_mx_list.txt'
-forecast_windows = [1, 2, 3, 4] #days
-DIR = '/Users/sophie/Dropbox/moswoc_paper/data/new_total_logic/'
+forecast_windows = [1, 2, 3, 4] # days
 
 def main():
     """Read file, 
        get time, 
        check if in flare list."""
     # First read observations
-    # format: YYYY MM DD start_HHMM peak_HHMM end_HHMM flare_class ARNo
+    # format: YYYY mm dd start_HHMM peak_HHMM end_HHMM flare_class ARNo
     obs = open(flare_file, 'r').readlines()
     m_obs = []
     x_obs = []

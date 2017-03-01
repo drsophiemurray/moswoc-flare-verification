@@ -11,25 +11,15 @@
     then create some files for verification (True/False,probability)
     This is for the raw stats model output in the SRS.
     
+    Edited into multiple codes for GitHub..
 '''
 
 import numpy as np
 import datetime as dt
 
-#forecast_file = '/Users/sophie/Dropbox/met_office_folders/ver_files/srs_fcast_issued.txt' #srs_fcast_raw.txt'
-#flare_file = '/Users/sophie/Dropbox/met_office_folders/ver_files/mx_list.txt'
-##forecast_windows = [1, 2, 3, 4] #days
-#DIR = '/Users/sophie/Dropbox/met_office_folders/ver_files/srs_issued_logic/' #srs_raw_logic/
-
-#forecast_file = '/home/somurray/moswoc_flare_verification_data/new_srs_fcast_issued.txt' #srs_fcast_raw.txt'
-#flare_file = '/home/somurray/moswoc_flare_verification_data/new_mx_list.txt'
-#forecast_windows = [1, 2, 3, 4] #days
-#DIR = '/home/somurray/moswoc_flare_verification_data/new_srs_issued_logic/' #srs_raw_logic/
-
-forecast_file = '/Users/sophie/Dropbox/moswoc_paper/data/new_srs_fcast_issued.txt' #srs_fcast_raw.txt'
-flare_file = '/Users/sophie/Dropbox/moswoc_paper/data/new_mx_list.txt'
-#forecast_windows = [1, 2, 3, 4] #days
-DIR = '/Users/sophie/Dropbox/moswoc_paper/data/new_srs_issued_logic/' #srs_raw_logic/
+forecast_file = '/Users/sophie/Dropbox/moswoc_paper/data/SRS_fcast.txt'
+flare_file = '/Users/sophie/Dropbox/moswoc_paper/data/MX_list.txt'
+DIR = '/Users/sophie/Dropbox/moswoc_paper/data/SRS_logic/'
 
 
 def main():
@@ -37,7 +27,7 @@ def main():
        get time, 
        check if in flare list."""
     # First read observations
-    # format: YYYY MM DD start_HHMM peak_HHMM end_HHMM flare_class ARNo
+    # format: YYYY mm dd start_HHMM peak_HHMM end_HHMM flare_class ARNo
     obs = open(flare_file, 'r').readlines()
     m_obs = []
     x_obs = []
@@ -61,7 +51,7 @@ def main():
     # now load the forecasts
     ####forecast = np.loadtxt(forecast_file)
     forecast = open(forecast_file, 'r').readlines()
-    # format: YYYY MM DD HHMM M1 X1 Forecaster
+    # format: YYYY mm dd HHMM M1 X1 Forecaster
     m_probs = []
     for i in range(0, len(forecast)):
         m_prob = forecast[i].split()[4]

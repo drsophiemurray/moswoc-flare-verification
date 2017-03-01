@@ -10,14 +10,17 @@
     Check if there was a flare or not during forecast period,
     then create some files for verification (True/False,probability)
     
+    Edited into multiple codes for GitHub..
+
 '''
 import numpy as np
 import datetime as dt
 
-forecast_file = '/home/somurray/Dropbox/moswoc_paper/data/swpc_fcast.txt'
-flare_file = '/home/somurray/Dropbox/moswoc_paper/data/new_mx_list.txt'
+forecast_file = '/Users/sophie/Dropbox/moswoc_paper/data/SWPC_fcast.txt'
+flare_file = '/Users/sophie/Dropbox/moswoc_paper/data/MX_list.txt'
+DIR = '/Users/sophie/Dropbox/moswoc_paper/data/SWPC_logic/'
+
 forecast_windows = [1, 2, 3] #days
-DIR = '/home/somurray/Dropbox/moswoc_paper/data/swpc_logic/'
 
 
 def main():
