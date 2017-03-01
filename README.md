@@ -22,11 +22,11 @@ Data
 Code
 ----
 
-* ``IFF_validation.py`` is an example of how the forecasts were analysed to find out whether flares actually occurred or not during each 24 forecast window.
+* ``IFF_validation.py`` is an example of how the forecasts were analysed to find out whether flares actually occurred or not during each 24-hour forecast window. The output data was then verified using the below R code.
 
 * ``MOSWOC_validation.R`` shows examples of how the verification analysis was undertaken, e.g., making ROC curves and reliability diagrams.
 
 Licence
 -------
 
-The content of this project is licensed under the [Creative Commons Attribution 4.0 license][https://creativecommons.org/licenses/by/4.0/], and the underlying source code used to format and display that content is licensed under the MIT license.
+The content of this project is licensed under the [Creative Commons Attribution 4.0 license](https://creativecommons.org/licenses/by/4.0/), and the underlying source code used to format and display that content is licensed under the MIT license.
