@@ -22,8 +22,9 @@ Data
 Code
 ----
 
-To be added
+* ``IFF_validation.py`` is an example of how the forecasts were analysed to find out whether flares actually occurred or not during each 24 forecast window.
 
+* ``MOSWOC_validation.R`` shows examples of how the verification analysis was undertaken, e.g., making ROC curves and reliability diagrams.
 
 Licence
 -------
