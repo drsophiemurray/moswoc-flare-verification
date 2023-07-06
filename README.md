@@ -1,6 +1,27 @@
 # moswoc-flare-verification
-Data and example code used for work on the paper 'Flare forecasting at the Met Office Space Weather Operations Centre' by Murray, S. A., et al that has been submitted to the Space Weather Journal. Please reference this work as 
+Data and example code used for work on the paper 'Flare forecasting at the Met Office Space Weather Operations Centre' by Murray, S. A., et al in the Space Weather Journal (doi: 10.1002/2016SW001579). Please reference this repository as 
+
 [![DOI](https://zenodo.org/badge/83428014.svg)](https://zenodo.org/badge/latestdoi/83428014)
+
+The post-print of the paper is freely available on [arxiv](https://arxiv.org/abs/1703.06754), and ADS BibTex entry is below for convenience:
+
+    @ARTICLE{2017SpWea..15..577M,
+        author = {{Murray}, S.~A. and {Bingham}, S. and {Sharpe}, M. and {Jackson}, D.~R.},
+        title = "{Flare forecasting at the Met Office Space Weather Operations Centre}",
+        journal = {Space Weather},
+        keywords = {space weather, solar physics, solar flares, operational forecasting, Astrophysics - Solar and Stellar Astrophysics, Physics -                     Data Analysis, Statistics and Probability, Physics - Space Physics},
+        year = 2017,
+        month = apr,
+        volume = {15},
+        number = {4},
+        pages = {577-588},
+        doi = {10.1002/2016SW001579},
+        archivePrefix = {arXiv},
+        eprint = {1703.06754},
+        primaryClass = {astro-ph.SR},
+        adsurl = {https://ui.adsabs.harvard.edu/abs/2017SpWea..15..577M},
+       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+
 
 Data
 ----
